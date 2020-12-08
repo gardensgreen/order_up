@@ -1,0 +1,12 @@
+<html>
+  <head>
+    {% if title %}
+      <title>{{ title }} - Order Up!</title>
+    {% else %}
+      <title>Welcome to Order Up!</title>
+    {% endif %}
+  </head>
+  <body>
+    {% block content %}{% endblock %}
+  </body>
+</html>
